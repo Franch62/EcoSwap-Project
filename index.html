@@ -37,9 +37,7 @@
             <h1> Join the Green Revolution with EcoSwap</h1>
             <h3>Swap items, reduce waste, and embrace a greener lifestyle. Together, We make a difference</h3>
             <div class="homeButtons-box">
-                <div class="button-GetStarted">
-                    <a href="#">Get Started</a>
-                </div>
+                <a href="#" class="button-GetStarted">Get Started</a>
                 <a href="#" id="btn-learnMore">Learn More  <span class="material-symbols-outlined">arrow_forward</span></a>
             </div>
         </section>
@@ -102,29 +100,6 @@
         </section>
 
     </section>
-
-    <script>
-
-    // Seleciona todos os elementos .product
-    const products = document.querySelectorAll('.products');
-
-    // Seleciona todos os elementos .line-section
-    const lineSections = document.querySelectorAll('.line-section');
-
-    // Adiciona um evento de hover para cada produto
-    products.forEach((product, index) => {
-        product.addEventListener('mouseover', () => {
-            // Adiciona a cor verde ao elemento .line-section correspondente
-            lineSections[index].style.backgroundColor = 'green';
-        });
-
-        product.addEventListener('mouseout', () => {
-            // Remove a cor verde ao sair do hover do produto
-            lineSections[index].style.backgroundColor = '';
-        });
-    });
-
-    </script>
 
 </body>
 
