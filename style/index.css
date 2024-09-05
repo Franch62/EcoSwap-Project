@@ -4,7 +4,7 @@ padding: 0;
 box-sizing: border-box;
 text-decoration: none;
 font-family: "Sora", sans-serif;
-color: black;
+color: #2f2f2f;
 }
 
 body::-webkit-scrollbar {
