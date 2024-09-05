@@ -24,7 +24,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .main-home{
-    background-image: url("/img/hero.png");
+    background-image: url("/img/hero.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
