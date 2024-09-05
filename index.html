@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0" />
+    <link rel="icon" href="./img/Mark.svg">
+    <title>EcoSwap</title>
+</head>
+
+<body>
+    <div class="main-home">
+        <header>
+            <div class="title-logo">
+                <img src="./img/Mark.svg" alt=""> 
+                <h1>EcoSwap</h1>
+            </div>
+            <div class="options-box">
+                <ul class="list-options">
+                    <a href="#"><li>Home</li></a>
+                    <li>Listings</li>
+                    <li>About</li>
+                    <a href="#"><li>Support</li></a>
+                </ul>
+            </div>
+            <div class="login-box">
+                <a href="#">Log in</a>
+                <div class="button-GetStarted">
+                    <a href="#">Get Started</a>
+                </div>
+            </div>
+        </header>
+        
+        <section class="home">
+            <span class="circle-brush"></span>
+            <h1> Join the Green Revolution with EcoSwap</h1>
+            <h3>Swap items, reduce waste, and embrace a greener lifestyle. Together, We make a difference</h3>
+            <div class="homeButtons-box">
+                <div class="button-GetStarted">
+                    <a href="#">Get Started</a>
+                </div>
+                <a href="#" id="btn-learnMore">Learn More  <span class="material-symbols-outlined">arrow_forward</span></a>
+            </div>
+        </section>
+    </div>
+
+    <section class="content-container">
+        <section class="home-partner">
+            <p>TRUSTED BY THESE COMPANIES</p>
+            <div class="partners">
+                <a href="#"><img src="./img/treehouse.png" alt="treehouse"></a>
+                <a href="#"><img src="./img/outreach.png" alt="outreach"></a>
+                <a href="#"><img src="./img/google.png" alt="google"></a>
+                <a href="#"><img src="./img/tesla.png" alt="tesla"></a>
+                <a href="#"><img src="./img/dribble.png" alt="dribble"></a>
+            </div>
+        </section>
+
+        <section class="container-products">
+
+            <div class="explore-listings">
+                <h1>Explore top listing</h1>
+                <a href="#" id="btn-explore-listings"> Explore Listings  <span class="material-symbols-outlined">arrow_forward</span></a>
+            </div>
+
+            <section class="top-listing-images">
+                <section class="products products-1">
+                    <a href="#">
+                        <div class="product">
+                            <img src="./img/square.png" alt="clothings">
+                        </div>
+                        <h3>Clothings <a href="#"><span class="material-symbols-outlined" id="arrow-product">arrow_forward</span></a></h3>
+                    </a>
+                </section>
+
+                <section class="products products-2">
+                    <a href="#">
+                        <div class="product">
+                            <img src="./img/table.png" alt="square">
+                        </div>
+                        <h3>Furnitures <a href="#"><span class="material-symbols-outlined" id="arrow-product">arrow_forward</span></a></h3>
+                    </a>
+                </section>
+
+                <section class="products products-3">
+                    <a href="#">
+                        <div class="product">
+                            <img src="./img/books.png" alt="square">
+                        </div>
+                        <h3>Books <a href="#"><span class="material-symbols-outlined" id="arrow-product">arrow_forward</span></a></h3>
+                    </a>
+                </section>
+
+            </section>
+            
+            <div class="line-location">
+                <span class="line-section" id="line-section-1"></span>
+                <span class="line-section" id="line-section-2"></span>
+                <span class="line-section" id="line-section-3"></span>    
+            </div>
+        </section>
+
+    </section>
+
+    <script>
+
+    // Seleciona todos os elementos .product
+    const products = document.querySelectorAll('.products');
+
+    // Seleciona todos os elementos .line-section
+    const lineSections = document.querySelectorAll('.line-section');
+
+    // Adiciona um evento de hover para cada produto
+    products.forEach((product, index) => {
+        product.addEventListener('mouseover', () => {
+            // Adiciona a cor verde ao elemento .line-section correspondente
+            lineSections[index].style.backgroundColor = 'green';
+        });
+
+        product.addEventListener('mouseout', () => {
+            // Remove a cor verde ao sair do hover do produto
+            lineSections[index].style.backgroundColor = '';
+        });
+    });
+
+    </script>
+
+</body>
+
+</html>
