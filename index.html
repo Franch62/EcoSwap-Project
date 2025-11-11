@@ -1,107 +1,192 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0" />
-    <link rel="icon" href="./img/Mark.svg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0"
+    />
+    <link rel="icon" href="./img/Mark.svg" />
     <title>EcoSwap</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="main-home">
-        <header>
-            <div class="title-logo">
-                <img src="./img/Mark.svg" alt=""> 
-                <h1>EcoSwap</h1>
-            </div>
-            <div class="options-box">
-                <ul class="list-options">
-                    <a href="#"><li>Home</li></a>
-                    <li>Listings</li>
-                    <li>About</li>
-                    <a href="#"><li>Support</li></a>
-                </ul>
-            </div>
-            <div class="login-box">
-                <a href="#">Log in</a>
-                <div class="button-GetStarted">
-                    <a href="#">Get Started</a>
-                </div>
-            </div>
-        </header>
-        
-        <section class="home">
-            <span class="circle-brush"></span>
-            <h1> Join the Green Revolution with EcoSwap</h1>
-            <h3>Swap items, reduce waste, and embrace a greener lifestyle. Together, We make a difference</h3>
-            <div class="homeButtons-box">
-                <a href="#" class="button-GetStarted">Get Started</a>
-                <a href="#" id="btn-learnMore">Learn More  <span class="material-symbols-outlined">arrow_forward</span></a>
-            </div>
-        </section>
+      <header>
+        <div class="title-logo">
+          <img src="./img/Mark.svg" alt="Logo EcoSwap" />
+          <h1>EcoSwap</h1>
+        </div>
+
+        <nav class="options-box">
+          <ul class="list-options">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Listings</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </nav>
+
+        <div class="login-box">
+          <a href="#">Log in</a>
+          <div class="button-GetStarted">
+            <a href="#">Get Started</a>
+          </div>
+        </div>
+
+        <div class="menu-toggle">
+          <span class="material-symbols-outlined">menu</span>
+        </div>
+      </header>
+
+      <section class="home">
+        <span class="circle-brush"></span>
+        <h1>Join the Green Revolution with EcoSwap</h1>
+        <h3>
+          Swap items, reduce waste, and embrace a greener lifestyle. Together,
+          we make a difference.
+        </h3>
+        <div class="homeButtons-box">
+          <a href="#" class="button-GetStarted">Get Started</a>
+          <a href="#" id="btn-learnMore"
+            >Learn More
+            <span class="material-symbols-outlined">arrow_forward</span></a
+          >
+        </div>
+      </section>
     </div>
 
     <section class="content-container">
-        <section class="home-partner">
-            <p>TRUSTED BY THESE COMPANIES</p>
-            <div class="partners">
-                <a href="https://teamtreehouse.com/"><img src="./img/treehouse.png" alt="treehouse"></a>
-                <a href="google.com/"><img src="./img/outreach.png" alt="outreach"></a>
-                <a href="https://www.outreach.io/"><img src="./img/google.png" alt="google"></a>
-                <a href="https://www.tesla.com/"><img src="./img/tesla.png" alt="tesla"></a>
-                <a href="https://dribbble.com/"><img src="./img/dribble.png" alt="dribble"></a>
-            </div>
+      <section class="home-partner">
+        <p>TRUSTED BY THESE COMPANIES</p>
+        <div class="partners">
+          <a href="https://teamtreehouse.com/"
+            ><img src="./img/treehouse.png" alt="treehouse"
+          /></a>
+          <a href="https://www.outreach.io/"
+            ><img src="./img/outreach.png" alt="outreach"
+          /></a>
+          <a href="https://www.google.com/"
+            ><img src="./img/google.png" alt="google"
+          /></a>
+          <a href="https://www.tesla.com/"
+            ><img src="./img/tesla.png" alt="tesla"
+          /></a>
+          <a href="https://dribbble.com/"
+            ><img src="./img/dribble.png" alt="dribble"
+          /></a>
+        </div>
+      </section>
+
+      <section class="container-products">
+        <div class="explore-listings">
+          <h1>Explore Top Listings</h1>
+          <a href="#" id="btn-explore-listings">
+            Explore Listings
+            <span class="material-symbols-outlined">arrow_forward</span>
+          </a>
+        </div>
+
+        <section class="top-listing-images">
+          <div class="products">
+            <a href="#">
+              <div class="product">
+                <img src="./img/square.png" alt="clothings" />
+              </div>
+              <h3>
+                Clothings
+                <span class="material-symbols-outlined" id="arrow-product"
+                  >arrow_forward</span
+                >
+              </h3>
+            </a>
+          </div>
+
+          <div class="products">
+            <a href="#">
+              <div class="product">
+                <img src="./img/table.png" alt="furniture" />
+              </div>
+              <h3>
+                Furnitures
+                <span class="material-symbols-outlined" id="arrow-product"
+                  >arrow_forward</span
+                >
+              </h3>
+            </a>
+          </div>
+
+          <div class="products">
+            <a href="#">
+              <div class="product">
+                <img src="./img/books.png" alt="books" />
+              </div>
+              <h3>
+                Books
+                <span class="material-symbols-outlined" id="arrow-product"
+                  >arrow_forward</span
+                >
+              </h3>
+            </a>
+          </div>
         </section>
 
-        <section class="container-products">
-
-            <div class="explore-listings">
-                <h1>Explore top listing</h1>
-                <a href="#" id="btn-explore-listings"> Explore Listings  <span class="material-symbols-outlined">arrow_forward</span></a>
-            </div>
-
-            <section class="top-listing-images">
-                <section class="products products-1">
-                    <a href="#">
-                        <div class="product">
-                            <img src="./img/square.png" alt="clothings">
-                        </div>
-                        <h3>Clothings <a href="#"><span class="material-symbols-outlined" id="arrow-product">arrow_forward</span></a></h3>
-                    </a>
-                </section>
-
-                <section class="products products-2">
-                    <a href="#">
-                        <div class="product">
-                            <img src="./img/table.png" alt="square">
-                        </div>
-                        <h3>Furnitures <a href="#"><span class="material-symbols-outlined" id="arrow-product">arrow_forward</span></a></h3>
-                    </a>
-                </section>
-
-                <section class="products products-3">
-                    <a href="#">
-                        <div class="product">
-                            <img src="./img/books.png" alt="square">
-                        </div>
-                        <h3>Books <a href="#"><span class="material-symbols-outlined" id="arrow-product">arrow_forward</span></a></h3>
-                    </a>
-                </section>
-
-            </section>
-            
-            <div class="line-location">
-                <span class="line-section" id="line-section-1"></span>
-                <span class="line-section" id="line-section-2"></span>
-                <span class="line-section" id="line-section-3"></span>    
-            </div>
-        </section>
-
+        <div class="line-location">
+          <span class="line-section"></span>
+          <span class="line-section"></span>
+          <span class="line-section"></span>
+        </div>
+      </section>
     </section>
 
-</body>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h4>Sobre Nós</h4>
+          <p>
+            Conectamos pessoas aos melhores imóveis e oportunidades. Nossa
+            missão é simplificar sua jornada com tecnologia e confiança.
+          </p>
+        </div>
 
+        <div class="footer-section">
+          <h4>Links Úteis</h4>
+          <a href="#">Início</a><br />
+          <a href="#">Explorar</a><br />
+          <a href="#">Contato</a><br />
+          <a href="#">Política de Privacidade</a>
+        </div>
+
+        <div class="footer-section">
+          <h4>Contato</h4>
+          <p>Email: contato@imobiliaria.com</p>
+          <p>Telefone: (11) 99999-9999</p>
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        © 2025 SuaEmpresa. Todos os direitos reservados.
+      </div>
+    </footer>
+
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle");
+      const nav = document.querySelector(".options-box");
+
+      menuToggle.addEventListener("click", () => {
+        nav.classList.toggle("active");
+      });
+    </script>
+  </body>
 </html>
